@@ -9,8 +9,9 @@
 .container_embedded {
     position: relative;
     overflow: hidden;
-    width: 1320px;
+    width: 1300px;
     height: 760px;
+    border: 0;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -22,8 +23,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -35,10 +36,60 @@
     left: 0;
     bottom: 0;
     right: 0;
-    width: 1320px;
-    height: 760px;
+    width: 1300px;
+    height: 740px;
 }
 
 pre {
     font-family: monospace;
 }
+
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: left;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+  }
