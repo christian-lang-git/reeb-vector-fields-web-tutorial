@@ -79,6 +79,24 @@ pre {
     width: 100%;
 }
 
+.horizontal_div_2{
+    display: inline-grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    column-gap: 8px;
+    gap: 8px;
+    width: 100%;
+}
+
+.horizontal_div_1{
+    display: inline-grid;
+    text-align: center;
+    grid-template-columns: auto;
+    column-gap: 8px;
+    gap: 8px;
+    width: auto;
+}
+
 
 table {
     width: 100%;
