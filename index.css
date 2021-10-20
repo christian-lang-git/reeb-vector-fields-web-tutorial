@@ -35,7 +35,7 @@
 
 /* Then style the iframe to fit in the container div with full height and width */
 
-.iframe_reeb_vector_fields_embedded {
+.iframe_reeb_vector_fields_embedded_left {
     margin: 0%;
     position: absolute;
     top: 0;
@@ -44,6 +44,17 @@
     right: 0;
     width: 1300px;
     height: 740px;
+}
+
+.iframe_reeb_vector_fields_embedded_right {
+    margin: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 532px;
+    height: 404px;
 }
 
 pre {
