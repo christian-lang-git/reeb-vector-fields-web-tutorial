@@ -22,7 +22,7 @@
 
 /* Then style the iframe to fit in the container div with full height and width */
 
-.iframe_reeb_vector_fields_default {
+.iframe_3_torus_flowvis_tool_default {
     margin: 0%;
     position: absolute;
     top: 0;
@@ -35,7 +35,7 @@
 
 /* Then style the iframe to fit in the container div with full height and width */
 
-.iframe_reeb_vector_fields_embedded_left {
+.iframe_3_torus_flowvis_tool_embedded_main {
     margin: 0%;
     position: absolute;
     top: 0;
@@ -46,7 +46,7 @@
     height: 740px;
 }
 
-.iframe_reeb_vector_fields_embedded_right {
+.iframe_3_torus_flowvis_tool_embedded_aux {
     margin: 0%;
     position: absolute;
     top: 0;
