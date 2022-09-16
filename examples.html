@@ -19,15 +19,17 @@
     <div id="toc_container">
         <p class="toc_title">Contents</p>
         <ul class="toc_list">
-            <li><a href="#anchor_magnetic">1 Magnetic Fields on the 2 Torus</a></li>
-            <li><a href="#anchor_others">2 Other Fields</a></li>
+            <li><a href="#anchor_magnetic">1 Magnetic Fields on the 3-Torus</a></li>
+            <li><a href="#anchor_others">2 Other Fields on the 3-Torus</a></li>
+            <li><a href="#anchor_2nd_order">3 2nd Order Autonomous ODEs</a></li>
+            
         </ul>
     </div>
     <div>
-        <h2 id="anchor_magnetic">Magnetic Fields on the 2 Torus</h2>     
+        <h2 id="anchor_magnetic">Magnetic Fields on the 3-Torus</h2>     
     </div>  
     <div>
-        <p>The following examples represent magnetic fields on the 2 Torus.
+        <p>The following examples represent magnetic fields on the 3-Torus.
             All of the following examples have u = cos(2 * PI * z) and v = sin(2 * PI * z).
         </p>
         <table>
@@ -54,16 +56,31 @@
         </table>
     </div>
     <div>
-        <h2 id="anchor_others">Other Fields</h3> 
+        <h2 id="anchor_others">Other Fields on the 3-Torus</h3> 
     </div> 
     <div>
-        <p>The following examples are not contrained to u = cos(2 * PI * z) and v = sin(2 * PI * z).
+        <p>The following examples are not constrained to u = cos(2 * PI * z) and v = sin(2 * PI * z).
         </p>
         <table>
             <tr>
                 <td><a href="example_5.html">Example 5</a></td>
                 <td>u = 2 * sin(2 * PI * z), v = sin(2 * PI * y) + 2 * cos (2 * PI * z), w = cos(2 * PI * x)</td>
                 <td></td>
+            </tr>
+        </table>
+    </div> 
+    <div>
+        <h2 id="anchor_2nd_order">2nd Order Autonomous ODEs</h3> 
+    </div> 
+    <div>
+        <p>The following examples use 2nd order autonomous ODEs.
+        </p>
+        <table>
+            <tr>
+                <td><a href="example_6.html">Example 6</a></td>
+                <td>a = sin(4*PI*(x-y)) / (2*(cos(2*PI*(x-y))-2)) * v_x*v_x - sin(2*PI*(x-y)) / (2-cos(2*PI*(x-y))) * v_y*v_y, <br>
+                    b = -2*sin(2*PI*(x-y)) / (2-cos(2*PI*(x-y))) * v_x*v_x - sin(4*PI*(x-y)) / (2*(cos(2*PI*(x-y))-2)) * v_y*v_y</td>
+                <td>Double Pendulum</td>
             </tr>
         </table>
     </div> 
