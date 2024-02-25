@@ -65,16 +65,19 @@ pre {
 #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
-    display: table;
+    display: grid;
     font-size: 95%;
     margin-bottom: 1em;
     padding: 20px;
     width: auto;
+    min-width: 1fr;
 }
 
 .toc_title {
+    font-size:150%;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
+    margin: 0;
 }
 
 #toc_container li, #toc_container ul, #toc_container ul li{
@@ -83,7 +86,7 @@ pre {
 
 .horizontal_div_3{
     display: inline-grid;
-    text-align: center;
+    text-align: left;
     grid-template-columns: auto auto auto;
     column-gap: 8px;
     gap: 8px;

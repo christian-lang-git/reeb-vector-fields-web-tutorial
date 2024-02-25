@@ -5,7 +5,7 @@
     <title>3-Torus FlowVis Tool Tutorial</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="error.css" rel="stylesheet" type="text/css" />
     <script src="tutorial_embedding.js" type="text/javascript"> </script>
 </head>
 
@@ -17,7 +17,6 @@
         <div>
         </div>
         <div>
-            <h2>Error 1001</h2>
             <div id="toc_container">
                 <p class="toc_title">Error 1001</p>
                 <ul class="toc_list">
@@ -30,10 +29,14 @@
             </div>
             <h3 id="anchor_description">Error Description</h3>    
             <p>
-                This error occurs during initialization.
+                This error occurs if WebGl 2.0 initialization fails.
             </p>
             <h3 id="anchor_solution">Possible Solutions</h3>
             <h4 id="anchor_solution_accelleration">Hardware Accelleration</h4>
+            <p>
+                When using Chrome as browser, the setting "Use graphics acceleration when available" needs to be enabled.<br>
+                This setting can be found by copying "chrome://settings/?search=acceleration" into the address bar at the top of the browser.
+            </p>
         </div>
         <div>
     </div>
